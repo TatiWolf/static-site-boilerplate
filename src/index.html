@@ -1,22 +1,229 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8" />
-    <title>static-site-boilerplate index</title>
-    <analytics></analytics>
-  </head>
-
-  <body class="index">
-    <div class="images">
-      <div class="image" id="bgPNG"></div>
-      <div class="image" id="bgJPG"></div>
-      <div class="image" id="bgSVG"></div>
-      <img src="images/image.png" />
-      <img src="images/image.jpg" />
-      <img src="images/image.svg" />
+<html lang='ru'>
+<head>
+  <meta charset='UTF-8'>
+  <title>Title</title>
+</head>
+<body>
+<header class='header'>
+  <div class='header-wrap'>
+    <div class='header-links-message'>
+      <a href=''>
+        <img src='assets/images/icons/tg.svg'
+             alt='Наш телеграм канал @swoosh '>
+      </a>
+      <a href=''>
+        <img
+          src='assets/images/icons/vk.svg'
+          alt='Наша страница в VK'>
+      </a>
     </div>
+    <div class='header-right-link'>
+      <div class='header-menu about-project-link'>
+        <p class='paragraph-24 text-white'>о проекте</p>
+      </div>
+      <div class='header-menu promo-link'>
+        <p class='paragraph-24 text-white'>промо</p>
+      </div>
+      <div class='header-menu platform-link'>
+        <p class='paragraph-24 text-white'>платформа</p>
+      </div>
+    </div>
+  </div>
+</header>
+<div>
+<img src='assets/images/title-houses.svg' alt='' class='img-title-houses'>
+</div>
+<section class='section'>
+  <div class='container logo__wrap'>
+    <div class='flex'>
+      <img src='assets/images/left-logo-line.svg' alt=''>
+      <svg width="774" height="249" viewBox="0 0 774 249" fill="none" xmlns="http://www.w3.org/2000/svg" class='logo'>
+        <path d="M688.159 64H710.083V110.305H710.461C717.139 103.375 725.77 99.91 736.354 99.91C747.82 99.91 756.829 103.375 763.381 110.305C769.933 117.109 773.209 127.189 773.209 140.545V196.3H751.285V141.49C751.285 134.308 749.584 128.953 746.182 125.425C742.78 121.771 737.929 119.944 731.629 119.944C725.077 119.944 719.848 121.897 715.942 125.803C712.036 129.709 710.083 134.938 710.083 141.49V196.3H688.159V64Z" fill="#31302F"/>
+        <path d="M627.58 197.001C613.72 197.001 603.514 194.229 596.962 188.685C590.536 183.015 586.882 175.14 586 165.06H609.058C610.066 169.848 611.83 173.376 614.35 175.644C616.87 177.786 620.965 178.857 626.635 178.857C632.557 178.857 636.652 177.975 638.92 176.211C641.188 174.321 642.322 171.864 642.322 168.84C642.322 165.69 640.936 163.296 638.164 161.658C635.518 159.894 632.179 158.445 628.147 157.311C624.115 156.177 619.768 155.106 615.106 154.098C610.444 152.964 606.097 151.389 602.065 149.373C598.033 147.231 594.631 144.396 591.859 140.868C589.213 137.34 587.89 132.552 587.89 126.504C587.89 122.598 588.646 119.007 590.158 115.731C591.67 112.329 593.938 109.431 596.962 107.037C599.986 104.517 603.766 102.564 608.302 101.178C612.964 99.7916 618.445 99.0986 624.745 99.0986C637.849 99.0986 647.488 101.808 653.662 107.226C659.836 112.644 663.427 119.952 664.435 129.15H641.377C640.369 125.118 638.668 122.157 636.274 120.267C634.006 118.251 630.163 117.243 624.745 117.243C619.579 117.243 615.988 118.062 613.972 119.7C611.956 121.338 610.948 123.543 610.948 126.315C610.948 129.339 612.271 131.607 614.917 133.119C617.689 134.505 621.091 135.702 625.123 136.71C629.155 137.718 633.502 138.789 638.164 139.923C642.826 140.931 647.173 142.506 651.205 144.648C655.237 146.79 658.576 149.751 661.222 153.531C663.994 157.185 665.38 162.225 665.38 168.651C665.38 172.683 664.561 176.463 662.923 179.991C661.411 183.393 659.08 186.354 655.93 188.874C652.906 191.394 649 193.41 644.212 194.922C639.55 196.308 634.006 197.001 627.58 197.001Z" fill="#31302F"/>
+        <path d="M111.621 100.69H135.057L152.256 170.62H152.634L168.321 100.69H194.781L213.114 170.62H213.492L229.557 100.69H251.481L226.911 195.19H200.451L181.74 125.26H181.362L164.541 195.19H138.081L111.621 100.69Z" fill="#31302F"/>
+        <path d="M51.975 197.08C35.217 197.08 22.554 193.111 13.986 185.173C5.544 177.235 0.882 166.084 0 151.72H24.192C24.822 160.036 27.342 166.21 31.752 170.242C36.162 174.274 42.903 176.29 51.975 176.29C60.669 176.29 66.906 174.715 70.686 171.565C74.466 168.415 76.356 164.194 76.356 158.902C76.356 153.988 74.529 150.271 70.875 147.751C67.221 145.231 62.622 143.152 57.078 141.514C51.534 139.75 45.549 138.112 39.123 136.6C32.697 134.962 26.712 132.694 21.168 129.796C15.624 126.898 11.025 122.992 7.371 118.078C3.717 113.164 1.89 106.486 1.89 98.044C1.89 92.752 2.898 87.901 4.914 83.491C6.93 78.955 9.891 75.049 13.797 71.773C17.829 68.371 22.743 65.725 28.539 63.835C34.461 61.945 41.328 61 49.14 61C65.394 61 77.553 64.78 85.617 72.34C93.681 79.9 98.217 90.61 99.225 104.47H75.033C74.403 96.91 72.072 91.24 68.04 87.46C64.008 83.68 57.708 81.79 49.14 81.79C40.824 81.79 34.839 83.365 31.185 86.515C27.531 89.539 25.704 93.445 25.704 98.233C25.704 103.399 27.531 107.305 31.185 109.951C34.839 112.471 39.438 114.55 44.982 116.188C50.526 117.826 56.511 119.401 62.937 120.913C69.363 122.299 75.348 124.378 80.892 127.15C86.436 129.922 91.035 133.828 94.689 138.868C98.343 143.782 100.17 150.523 100.17 159.091C100.17 164.635 99.162 169.738 97.146 174.4C95.256 179.062 92.295 183.094 88.263 186.496C84.231 189.772 79.191 192.355 73.143 194.245C67.095 196.135 60.039 197.08 51.975 197.08Z" fill="#31302F"/>
+        <g clip-path="url(#clip0_85_146)">
+          <path class='logo-car' d="M557.914 209.653V195.779C557.745 195.92 557.549 196.088 557.38 196.229C546.418 205.44 532.729 210.496 518.844 210.496C485.985 210.496 459.254 183.787 459.254 151.04C459.086 135.256 465.185 120.343 476.372 109.053C487.644 97.679 502.625 91.4161 518.563 91.4161C527.107 91.4161 535.315 93.1854 542.904 96.6118L535.512 84.114L530.452 70.0997H545.265C547.879 70.0997 550.016 67.9653 550.016 65.3534C550.016 62.7415 547.879 60.607 545.265 60.607H527.023L509.821 13.0875C507.207 5.86973 498.831 0 491.157 0H336.844C329.17 0 320.794 5.86973 318.18 13.0875L300.978 60.607H282.736C280.122 60.607 277.985 62.7415 277.985 65.3534C277.985 67.9653 280.122 70.0997 282.736 70.0997H297.549L292.489 84.114L285.097 96.6118C292.686 93.2135 300.893 91.4161 309.157 91.4161C322.986 91.4161 336 96.0501 346.766 104.784C360.736 116.018 368.746 132.841 368.746 150.956C368.746 166.459 362.816 181.091 352.022 192.212C340.751 203.84 325.123 210.496 309.157 210.496C294.625 210.496 281.246 205.497 270.537 196.144C270.368 196.004 270.227 195.892 270.087 195.751V209.653H276.411V236.278C274.612 237.541 273.46 239.62 273.46 241.979C273.46 244.338 274.612 246.416 276.411 247.68V249H551.59V247.68C553.36 246.416 554.541 244.338 554.541 241.979C554.541 239.62 553.36 237.541 551.59 236.278V209.653H557.914ZM302.58 84.114L307.639 70.0997L311.097 60.607L327.118 16.2892C328.355 12.8628 333.162 9.49267 336.844 9.49267H491.157C494.839 9.49267 499.646 12.8628 500.883 16.2892L516.904 60.607L520.362 70.0997L525.421 84.114H302.58ZM501.67 234.958H326.331V209.653H501.67V234.958Z" fill="#F21717"/>
+          <path d="M349.132 150.63C349.132 172.557 331.323 190.364 309.316 190.364C287.309 190.364 269.5 172.557 269.5 150.63C269.5 128.702 287.309 110.895 309.316 110.895C331.323 110.895 349.132 128.702 349.132 150.63Z" stroke="#31302F" stroke-width="23"/>
+          <path d="M558.5 150.63C558.5 172.557 540.691 190.364 518.684 190.364C496.677 190.364 478.868 172.557 478.868 150.63C478.868 128.702 496.677 110.895 518.684 110.895C540.691 110.895 558.5 128.702 558.5 150.63Z" stroke="#31302F" stroke-width="23"/>
+        </g>
+        <defs>
+          <clipPath id="clip0_85_146">
+            <rect width="312" height="249" fill="white" transform="translate(258)"/>
+          </clipPath>
+        </defs>
+      </svg>
 
-    <div>This is a landing page</div>
-    <a href="./pages/page.html">Go to an internal page</a>
-  </body>
+      <img src='assets/images/right-logo-line.svg' alt=''>
+    </div>
+    <my-frame margin='12px 24px 14px 24px'>
+      платформа для начинающих водителей
+    </my-frame>
+  </div>
+</section>
+<div class='border'></div>
+<div class='main'>
+  <section class='section'>
+    <div class='container'>
+      <div class='about-project'>
+        <my-frame style='max-width: 550px' margin='35px 50px 35px 50px'>
+          <p>мы — проект для тех, кто ещё не чувствует себя уверенно на дороге</p>
+        </my-frame>
+        <div class='men-stop'>
+          <img src='assets/images/men.svg'
+               alt=''>
+          <img src='assets/images/stop.svg'
+               alt='' class='img-stop'>
+        </div>
+        <div class='img-smile'>
+          <img src='assets/images/smile.svg'
+               alt=''>
+          <img src='assets/images/arrow.svg'
+               alt='' class='img-smile__arrow'>
+        </div>
+        <div class='img-smile__text'>
+          <my-frame margin='45px'>
+            здесь вы найдёте: сборники ПДД, SOS номера, разные подборки полезной информации
+            и, конечно, наш журнал
+          </my-frame>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+<section class='section'>
+  <div class='container problem'>
+    <div class='frame margin-center problem block-center'>
+      <div class='frame-container'>
+        <div class='frame-container__problem'>
+          <div class='problem__header'>
+            <img src='assets/images/two-cars.svg'
+                 alt='' class='two-cars'>
+            <h2 class='paragraph-40'>ПРОБЛЕМА</h2>
+          </div>
+          <div class='problem__wrap'>
+            <div class='problem__traffic-light'>
+              <img src='assets/images/traffic-light.png'
+                   alt='' class='traffic-light'>
+              <div class='problem__traffic-light-text'>
+                <p class='paragraph-18'>Неуверенно чувствуют себя на дороге</p>
+                <p class='paragraph-18'>Чувствуют, что им недостаёт некоторых знаний</p>
+                <p class='paragraph-18'>Хорошо ориентируются в правилах вождения</p>
+              </div>
+            </div>
+            <div class='problem__about-problem'>
+              <img src='assets/images/attention.svg'
+                   alt='' class='attention'>
+              <p class='paragraph-24'>современные курсы по вождению зачастую скучные
+                и однообразные,
+                что может
+                привести к невниманию к материалу и дальнейшим
+                проблемам на дороге.</p>
+              <img src='assets/images/reindeer.svg'
+                   alt='' class='reindeer'>
+              <p class='paragraph-24'>статистика говорит о том, что большинство людей,
+                прошедших курсы
+                автошколы, все равно не уверены в своих навыках
+                вождения</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class='section'>
+  <div class='container solution'>
+    <div class='solution__header block-center flex'>
+      <div class='frame block-center '>
+        <div class='frame-container'>
+          <div class='solution__header-text'>
+            <h3 class='paragraph-40'>РЕШЕНИЕ</h3>
+            <img src='assets/images/arrow-down.svg' class='solution__arrow-down' alt=''>
+          </div>
+        </div>
+      </div>
+      <!--      <my-frame>-->
+      <!--        <h3 class='paragraph-40'>РЕШЕНИЕ</h3>-->
+      <!--        <img src='assets/images/arrow-down.svg' class='solution__arrow-down' alt=''>-->
+      <!--      </my-frame>-->
+    </div>
+    <div class='solution__wrap'>
+      <div class='solution__wrap-text-block solution__wrap-text-block-right '>
+        <my-frame height='135px' margin='30px'>
+          изучение ПДД
+          в игровой форме
+        </my-frame>
+        <div class='mt-30'>
+          <my-frame height='135px' margin='30px'>
+            советы и лайфхаки
+          </my-frame>
+        </div>
+      </div>
+      <div class='solution__wrap-warning-wrap'>
+        <img src='assets/images/warning.svg'
+             alt='' class='solution__wrap-warning-wrap-img'>
+        <p class='paragraph-24 solution__wrap-warning-wrap-text'>полезный<br>и интересный журнал<br>о вождении </p>
+      </div>
+      <div class='solution__wrap-text-block solution__wrap-text-block-left'>
+        <my-frame height='135px' margin='30px'>
+          все SOS-службы в одном месте
+        </my-frame>
+        <div class='mt-30'>
+          <my-frame height='135px' margin='30px'>
+            помощь в выборе
+            первого автомобиля
+          </my-frame>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<footer class='section'>
+  <div class='container footer'>
+    <div class='frame footer-wrap-container'>
+      <div class='frame-container footer__wrap '>
+        <div class='footer__header'>
+          <p class='paragraph-40'>УЗНАЙ ПЕРВЫМ О ЗАПУСКЕ</p>
+          <img src='assets/images/crosswalk.svg'
+               alt='' class='img-crosswalk'>
+        </div>
+        <div class='footer__connect'>
+          <input type='email'
+                 placeholder='e-mail:' class='input mr-20'>
+          <button class='submit-button'>ПОДПИСАТЬСЯ</button>
+        </div>
+      </div>
+
+    </div>
+    <div class='footer__social-media'>
+      <p class='paragraph-40'>МЫ В СОЦСЕТЯХ</p>
+      <a href=''
+         class='footer__social-media-links paragraph-24 bold'>
+        <img src='assets/images/icons/tg.svg'
+             alt=''
+             class='mr-20'
+        >
+        TELEGRAM
+      </a>
+      <a href=''
+         class='footer__social-media-links paragraph-24 bold '>
+        <img src='assets/images/icons/vk.svg'
+             alt=''
+             class='mr-20'
+        >
+        ВКОНТАКТЕ
+      </a>
+    </div>
+  </div>
+</footer>
+<!--<h2>Разделы</h2>-->
+<!--<ul>-->
+<!--    <li><a href="for-future.html">для будущих автомобилистов</a></li>-->
+<!--    <li><a href="helpful.html">полезное</a></li>-->
+<!--    <li><a href="sos.html">sos</a></li>-->
+<!--    <li><a href="lifehacks.html">советы и лайфхаки</a></li>-->
+<!--</ul>-->
+</body>
 </html>

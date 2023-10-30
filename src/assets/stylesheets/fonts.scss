@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "PTRootUI";
+  src: url("assets/fonts/PTRootUIRegular.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "PTRootUI";
+  src: url("assets/fonts/PTRootUIMedium.ttf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "PTRootUI";
+  src: url("assets/fonts/PTRootUIBold.ttf");
+  font-weight: 700;
+}
+
+
+.paragraph {
+  font-family: PTRootUI, serif;
+  font-size: 31px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+@media (max-width: 1080px) {
+.paragraph {
+  font-size: 23px;
+}
+}
+
+.paragraph-40 {
+  font-family: PTRootUI, serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+
+.paragraph-24 {
+  font-family: PTRootUI, serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.paragraph-18 {
+  font-family: PTRootUI, serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.text-white {
+  color: #FFFFFF;
+}
+
+.bold {
+  font-weight: 700;
+}
